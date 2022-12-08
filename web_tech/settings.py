@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'category',
     'books',
     'rating',
+    'profile1',
 ]
 
 MIDDLEWARE = [
