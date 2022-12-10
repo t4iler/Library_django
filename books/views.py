@@ -21,7 +21,7 @@ class BookViewSet(ModelViewSet):
     queryset = Book.objects.all()
     filter_backends = (DjangoFilterBackend, SearchFilter,)
     filterset_fields = ('category', 'author',)
-    search_fields = ('title',)
+    search_fields = ('title', 'author')
     pagination_class = StandartResultPagination
 
 
