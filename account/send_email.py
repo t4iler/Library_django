@@ -3,7 +3,7 @@ from django.core.mail import send_mail
 
 def send_confirmation_email(user):
     code = user.activation_code
-    full_link = f'http://34.102.1.182/api/v1/account/activate/{code}/'
+    full_link = f'http://34.94.9.208/api/v1/account/activate/{code}/'
     to_email = user.email
     send_mail(
         'Hello, please activate your account!', 
