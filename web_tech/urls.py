@@ -9,8 +9,8 @@ from books.views import BookViewSet
 
 
 from rest_framework import permissions
-from drf_yasg.views import get_schema_view         # swagger
-from drf_yasg import openapi                       # swagger
+from drf_yasg.views import get_schema_view         # swagger lib
+from drf_yasg import openapi                       # swagger lib
 
 schema_view = get_schema_view(                     # swagger
    openapi.Info(
